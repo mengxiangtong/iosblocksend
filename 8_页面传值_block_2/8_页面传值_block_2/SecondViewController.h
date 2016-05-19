@@ -33,4 +33,9 @@ typedef void (^B_block)(NSString *);
 @property(nonatomic,retain)UITextField *textField;
 @property(nonatomic,retain)UIButton *button;
 
+@property(nonatomic,retain)UILabel *label;
+
+
+
+
 @end

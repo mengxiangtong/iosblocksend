@@ -19,6 +19,8 @@
 
 @interface FirstViewController ()
 
+
+
 @end
 
 @implementation FirstViewController
@@ -58,18 +60,28 @@
 - (void)showSecondWithBlock:(UIButton *)sender
 {
     
+    //1 循环引用就是当self 拥有一个block的时候，在block 又调用self的方法。形成你中有我，我中有你，谁都无法将谁释放的困局。
+    //这个block 是 secondVC持有
+    //如果block 的实现 在 传出类（block定义类）－－就必须弱引用
+    //因为self持有block，block又调用了self
     SecondViewController *secondVC = [[SecondViewController alloc] init];
     
     [self.navigationController pushViewController:secondVC animated:YES];
     
     //实现       并不执行。什么时候调用，什么时候执行
-    
     //2， (给下一级 属性赋值) block 赋值 即 block的   实现
     secondVC.block = ^(NSString *str){
+        NSLog(@"  实现       并不执行。 返回后执行  ");
         //把参数值赋给 label
         self.label.text = str;
         
-        };
+    };
+
+      
+
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

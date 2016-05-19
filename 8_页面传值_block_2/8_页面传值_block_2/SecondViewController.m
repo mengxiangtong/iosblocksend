@@ -40,6 +40,7 @@
     [self.view addSubview:_button];
     
     
+   
 }
 
 
@@ -53,7 +54,9 @@
             self.block(self.textField.text);
             
             [self.navigationController  popViewControllerAnimated:YES ];
+            
         }
+    
         
     }else{
         

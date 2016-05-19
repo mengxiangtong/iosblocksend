@@ -374,6 +374,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "8_页面传值_block_2/8_页面传值_block_2-Prefix.pch";
 				INFOPLIST_FILE = "8_页面传值_block_2/8_页面传值_block_2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -388,6 +389,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "8_页面传值_block_2/8_页面传值_block_2-Prefix.pch";
 				INFOPLIST_FILE = "8_页面传值_block_2/8_页面传值_block_2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -452,6 +454,7 @@
 				C26F996D1A3D66E400E394FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C26F996E1A3D66E400E394FB /* Build configuration list for PBXNativeTarget "8_页面传值_block_2Tests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +463,7 @@
 				C26F99701A3D66E400E394FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
