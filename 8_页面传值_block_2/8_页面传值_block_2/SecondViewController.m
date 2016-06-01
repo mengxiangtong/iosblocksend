@@ -7,6 +7,7 @@
 //
 
 #import "SecondViewController.h"
+#import "FirstViewController.h"
 
 @interface SecondViewController ()
 
@@ -46,6 +47,13 @@
 
 - (void)buttonAction:(UIButton *)sender
 {
+    
+    FirstViewController *vc = [[FirstViewController alloc] init];
+    vc.s = @"0000000";
+    
+    
+    
+    
    
     if (self) {
         

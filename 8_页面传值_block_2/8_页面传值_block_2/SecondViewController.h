@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface SecondViewController : UIViewController
-
+{
+   
+}
 //B_block  替换 void (^ )(NSString *str)
 
 typedef void (^B_block)(NSString *);

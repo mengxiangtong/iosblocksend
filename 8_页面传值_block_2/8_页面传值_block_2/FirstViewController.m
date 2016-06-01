@@ -19,7 +19,7 @@
 
 @interface FirstViewController ()
 
-
+@property (nonatomic, retain)  UISegmentedControl *segmentControl;
 
 @end
 
@@ -30,13 +30,36 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.s = @"ss";
+        
+        
     }
     return self;
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+     // NSLog(@" s-- %@",  _s);
+    
+    
+    
+   // self.l.text = _s ;
+}
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
+    
+    
+    self.l = [[UILabel alloc] initWithFrame:CGRectMake(50, 210, 200, 80)];
+    _l.text = @"22222\n22";
+    _l.numberOfLines = 0;
+    [self.view addSubview:_l];
+    
+    
     
     self.view.backgroundColor = [UIColor yellowColor];
     
@@ -51,6 +74,52 @@
     [_button setTitle:@"下一页" forState:UIControlStateNormal];
     [_button addTarget:self action:@selector(showSecondWithBlock:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_button];
+    
+    
+  ///
+    
+    
+    [self.view addSubview:self.segmentControl];
+    
+    
+    
+    
+    
+
+}
+
+- (UISegmentedControl *)segmentControl
+{
+    
+    UIColor *tintCol = [UIColor colorWithRed:12/255.0 green:42/255.0 blue:85/255.0 alpha:1];
+    
+    if (!_segmentControl) {
+        _segmentControl = [[UISegmentedControl alloc] initWithItems:@[@"农商行客户专享理财", @"通用理财"]];
+        _segmentControl.layer.borderWidth = 2;
+        _segmentControl.layer.borderColor = tintCol.CGColor;
+        _segmentControl.layer.masksToBounds = YES;
+        _segmentControl.layer.cornerRadius = 4;
+        _segmentControl.frame =CGRectMake(10, 300, 300, 30);
+        _segmentControl.selectedSegmentIndex = 0;
+        _segmentControl.tintColor = tintCol;
+        //修改字体的默认颜色与选中颜色
+        NSDictionary *dicSelect = [NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],NSForegroundColorAttributeName,
+                                   [UIFont systemFontOfSize:14],NSFontAttributeName ,nil];
+        [_segmentControl setTitleTextAttributes:dicSelect forState:UIControlStateSelected];
+        
+        NSDictionary *dic = [NSDictionary dictionaryWithObjectsAndKeys:tintCol,NSForegroundColorAttributeName,
+                             [UIFont systemFontOfSize:14],NSFontAttributeName ,nil];
+        
+        [_segmentControl setTitleTextAttributes:dic forState:UIControlStateNormal];
+        
+        [_segmentControl addTarget:self action:@selector(segmentControlAction:) forControlEvents:UIControlEventValueChanged];
+        
+    }
+    return _segmentControl;
+}
+
+-(void)segmentControlAction:(UISegmentedControl *)sender{
+    
 
 }
 

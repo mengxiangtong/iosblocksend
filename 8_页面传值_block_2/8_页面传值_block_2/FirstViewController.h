@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SecondViewController.h"
+
 
 @interface FirstViewController : UIViewController
+
+@property (nonatomic, strong) UILabel *l ;
+@property (nonatomic, copy) NSString  *s ;
+
 
 @property(nonatomic,retain)UIButton *button;
 @property(nonatomic,retain)UILabel *label;
