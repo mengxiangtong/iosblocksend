@@ -34,20 +34,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C26F993F1A3D66E300E394FB /* 8_页面传值_block_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "8_页面传值_block_2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26F993F1A3D66E300E394FB /* 页面传值_block.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "页面传值_block.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C26F99421A3D66E400E394FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C26F99441A3D66E400E394FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C26F99461A3D66E400E394FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		C26F994A1A3D66E400E394FB /* 8_页面传值_block_2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "8_页面传值_block_2-Info.plist"; sourceTree = "<group>"; };
+		C26F994A1A3D66E400E394FB /* 页面传值_block-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "页面传值_block-Info.plist"; sourceTree = "<group>"; };
 		C26F994C1A3D66E400E394FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C26F994E1A3D66E400E394FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C26F99501A3D66E400E394FB /* 8_页面传值_block_2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "8_页面传值_block_2-Prefix.pch"; sourceTree = "<group>"; };
+		C26F99501A3D66E400E394FB /* 页面传值_block-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "页面传值_block-Prefix.pch"; sourceTree = "<group>"; };
 		C26F99511A3D66E400E394FB /* MXTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXTAppDelegate.h; sourceTree = "<group>"; };
 		C26F99521A3D66E400E394FB /* MXTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXTAppDelegate.m; sourceTree = "<group>"; };
 		C26F99541A3D66E400E394FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C26F995A1A3D66E400E394FB /* 8_页面传值_block_2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "8_页面传值_block_2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26F995A1A3D66E400E394FB /* 页面传值_blockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "页面传值_blockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C26F995B1A3D66E400E394FB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C26F99631A3D66E400E394FB /* 8_页面传值_block_2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "8_页面传值_block_2Tests-Info.plist"; sourceTree = "<group>"; };
+		C26F99631A3D66E400E394FB /* 页面传值_block_2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "页面传值_block_2Tests-Info.plist"; sourceTree = "<group>"; };
 		C26F99651A3D66E400E394FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C26F99671A3D66E400E394FB /* _______block_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______block_2Tests.m"; sourceTree = "<group>"; };
 		C26F99711A3D672300E394FB /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 		C26F99361A3D66E300E394FB = {
 			isa = PBXGroup;
 			children = (
-				C26F99481A3D66E400E394FB /* 8_页面传值_block_2 */,
-				C26F99611A3D66E400E394FB /* 8_页面传值_block_2Tests */,
+				C26F99481A3D66E400E394FB /* 页面传值_block */,
+				C26F99611A3D66E400E394FB /* 页面传值_blockTests */,
 				C26F99411A3D66E300E394FB /* Frameworks */,
 				C26F99401A3D66E300E394FB /* Products */,
 			);
@@ -93,8 +93,8 @@
 		C26F99401A3D66E300E394FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C26F993F1A3D66E300E394FB /* 8_页面传值_block_2.app */,
-				C26F995A1A3D66E400E394FB /* 8_页面传值_block_2Tests.xctest */,
+				C26F993F1A3D66E300E394FB /* 页面传值_block.app */,
+				C26F995A1A3D66E400E394FB /* 页面传值_blockTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,7 +110,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C26F99481A3D66E400E394FB /* 8_页面传值_block_2 */ = {
+		C26F99481A3D66E400E394FB /* 页面传值_block */ = {
 			isa = PBXGroup;
 			children = (
 				C26F99511A3D66E400E394FB /* MXTAppDelegate.h */,
@@ -122,33 +122,33 @@
 				C26F99541A3D66E400E394FB /* Images.xcassets */,
 				C26F99491A3D66E400E394FB /* Supporting Files */,
 			);
-			path = "8_页面传值_block_2";
+			path = "页面传值_block";
 			sourceTree = "<group>";
 		};
 		C26F99491A3D66E400E394FB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C26F994A1A3D66E400E394FB /* 8_页面传值_block_2-Info.plist */,
+				C26F994A1A3D66E400E394FB /* 页面传值_block-Info.plist */,
 				C26F994B1A3D66E400E394FB /* InfoPlist.strings */,
 				C26F994E1A3D66E400E394FB /* main.m */,
-				C26F99501A3D66E400E394FB /* 8_页面传值_block_2-Prefix.pch */,
+				C26F99501A3D66E400E394FB /* 页面传值_block-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C26F99611A3D66E400E394FB /* 8_页面传值_block_2Tests */ = {
+		C26F99611A3D66E400E394FB /* 页面传值_blockTests */ = {
 			isa = PBXGroup;
 			children = (
 				C26F99671A3D66E400E394FB /* _______block_2Tests.m */,
 				C26F99621A3D66E400E394FB /* Supporting Files */,
 			);
-			path = "8_页面传值_block_2Tests";
+			path = "页面传值_blockTests";
 			sourceTree = "<group>";
 		};
 		C26F99621A3D66E400E394FB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C26F99631A3D66E400E394FB /* 8_页面传值_block_2Tests-Info.plist */,
+				C26F99631A3D66E400E394FB /* 页面传值_block_2Tests-Info.plist */,
 				C26F99641A3D66E400E394FB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -157,9 +157,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C26F993E1A3D66E300E394FB /* 8_页面传值_block_2 */ = {
+		C26F993E1A3D66E300E394FB /* 页面传值_block */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C26F996B1A3D66E400E394FB /* Build configuration list for PBXNativeTarget "8_页面传值_block_2" */;
+			buildConfigurationList = C26F996B1A3D66E400E394FB /* Build configuration list for PBXNativeTarget "页面传值_block" */;
 			buildPhases = (
 				C26F993B1A3D66E300E394FB /* Sources */,
 				C26F993C1A3D66E300E394FB /* Frameworks */,
@@ -169,14 +169,14 @@
 			);
 			dependencies = (
 			);
-			name = "8_页面传值_block_2";
+			name = "页面传值_block";
 			productName = "8_页面传值_block_2";
-			productReference = C26F993F1A3D66E300E394FB /* 8_页面传值_block_2.app */;
+			productReference = C26F993F1A3D66E300E394FB /* 页面传值_block.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C26F99591A3D66E400E394FB /* 8_页面传值_block_2Tests */ = {
+		C26F99591A3D66E400E394FB /* 页面传值_blockTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C26F996E1A3D66E400E394FB /* Build configuration list for PBXNativeTarget "8_页面传值_block_2Tests" */;
+			buildConfigurationList = C26F996E1A3D66E400E394FB /* Build configuration list for PBXNativeTarget "页面传值_blockTests" */;
 			buildPhases = (
 				C26F99561A3D66E400E394FB /* Sources */,
 				C26F99571A3D66E400E394FB /* Frameworks */,
@@ -187,9 +187,9 @@
 			dependencies = (
 				C26F99601A3D66E400E394FB /* PBXTargetDependency */,
 			);
-			name = "8_页面传值_block_2Tests";
+			name = "页面传值_blockTests";
 			productName = "8_页面传值_block_2Tests";
-			productReference = C26F995A1A3D66E400E394FB /* 8_页面传值_block_2Tests.xctest */;
+			productReference = C26F995A1A3D66E400E394FB /* 页面传值_blockTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C26F993A1A3D66E300E394FB /* Build configuration list for PBXProject "8_页面传值_block_2" */;
+			buildConfigurationList = C26F993A1A3D66E300E394FB /* Build configuration list for PBXProject "页面传值_block" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -219,8 +219,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C26F993E1A3D66E300E394FB /* 8_页面传值_block_2 */,
-				C26F99591A3D66E400E394FB /* 8_页面传值_block_2Tests */,
+				C26F993E1A3D66E300E394FB /* 页面传值_block */,
+				C26F99591A3D66E400E394FB /* 页面传值_blockTests */,
 			);
 		};
 /* End PBXProject section */
@@ -270,7 +270,7 @@
 /* Begin PBXTargetDependency section */
 		C26F99601A3D66E400E394FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C26F993E1A3D66E300E394FB /* 8_页面传值_block_2 */;
+			target = C26F993E1A3D66E300E394FB /* 页面传值_block */;
 			targetProxy = C26F995F1A3D66E400E394FB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -372,8 +372,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "8_页面传值_block_2/8_页面传值_block_2-Prefix.pch";
-				INFOPLIST_FILE = "8_页面传值_block_2/8_页面传值_block_2-Info.plist";
+				GCC_PREFIX_HEADER = "页面传值_block/页面传值_block-Prefix.pch";
+				INFOPLIST_FILE = "页面传值_block/页面传值_block-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -387,8 +387,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "8_页面传值_block_2/8_页面传值_block_2-Prefix.pch";
-				INFOPLIST_FILE = "8_页面传值_block_2/8_页面传值_block_2-Info.plist";
+				GCC_PREFIX_HEADER = "页面传值_block/页面传值_block-Prefix.pch";
+				INFOPLIST_FILE = "页面传值_block/页面传值_block-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -405,12 +405,11 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "8_页面传值_block_2/8_页面传值_block_2-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "8_页面传值_block_2Tests/8_页面传值_block_2Tests-Info.plist";
+				INFOPLIST_FILE = "8_页面传值_block_2Tests/页面传值_block_2Tests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -427,8 +426,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "8_页面传值_block_2/8_页面传值_block_2-Prefix.pch";
-				INFOPLIST_FILE = "8_页面传值_block_2Tests/8_页面传值_block_2Tests-Info.plist";
+				INFOPLIST_FILE = "8_页面传值_block_2Tests/页面传值_block_2Tests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -438,7 +436,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C26F993A1A3D66E300E394FB /* Build configuration list for PBXProject "8_页面传值_block_2" */ = {
+		C26F993A1A3D66E300E394FB /* Build configuration list for PBXProject "页面传值_block" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C26F99691A3D66E400E394FB /* Debug */,
@@ -447,7 +445,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C26F996B1A3D66E400E394FB /* Build configuration list for PBXNativeTarget "8_页面传值_block_2" */ = {
+		C26F996B1A3D66E400E394FB /* Build configuration list for PBXNativeTarget "页面传值_block" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C26F996C1A3D66E400E394FB /* Debug */,
@@ -456,7 +454,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C26F996E1A3D66E400E394FB /* Build configuration list for PBXNativeTarget "8_页面传值_block_2Tests" */ = {
+		C26F996E1A3D66E400E394FB /* Build configuration list for PBXNativeTarget "页面传值_blockTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C26F996F1A3D66E400E394FB /* Debug */,

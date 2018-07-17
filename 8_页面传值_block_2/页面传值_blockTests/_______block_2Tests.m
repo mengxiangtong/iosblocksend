@@ -1,9 +1,9 @@
 //
-//  _______block_2Tests.m
-//  8_页面传值_block_2Tests
+//  _______blockTests.m
+//  页面传值_blockTests
 //
-//  Created by lanou3g on 14-12-14.
-//  Copyright (c) 2014年 Lanou_zhou. All rights reserved.
+//  Created by mengxiangtong on 14-12-14.
+//  Copyright (c) 2014年 mengxiangtong. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

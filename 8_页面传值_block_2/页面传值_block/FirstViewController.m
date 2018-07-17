@@ -1,9 +1,9 @@
 //
 //  FirstViewController.m
-//  8_页面传值_block_2
+//  页面传值_block
 //
-//  Created by lanou3g on 14-12-14.
-//  Copyright (c) 2014年 Lanou_zhou. All rights reserved.
+//  Created by mengxiangtong on 14-12-14.
+//  Copyright (c) 2014年 mengxiangtong. All rights reserved.
 //
 
 #import "FirstViewController.h"
@@ -51,20 +51,11 @@
 {
     [super viewDidLoad];
     
-    
-    
-    
-    self.l = [[UILabel alloc] initWithFrame:CGRectMake(50, 210, 200, 80)];
-    _l.text = @"22222\n22";
-    _l.numberOfLines = 0;
-    [self.view addSubview:_l];
-    
-    
-    
+
     self.view.backgroundColor = [UIColor yellowColor];
     
     _label = [[UILabel alloc] initWithFrame: CGRectMake(50, 100, 200, 30)];
-    
+    _label.backgroundColor = [UIColor cyanColor];
     [self.view addSubview:_label];
     
     

@@ -1,9 +1,9 @@
 //
 //  MXTAppDelegate.h
-//  8_页面传值_block_2
+//  页面传值_block
 //
-//  Created by lanou3g on 14-12-14.
-//  Copyright (c) 2014年 Lanou_zhou. All rights reserved.
+//  Created by mengxiangtong on 14-12-14.
+//  Copyright (c) 2014年 mengxiangtong. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
